@@ -21,5 +21,24 @@
         "mainFile": "index.ts",
         "rootDir": "components/ui/secondinput"
     },
+    "ui/thirdinput": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "rajesh_mannuru.sandbox-scope",
+        "mainFile": "index.ts",
+        "rootDir": "components/ui/thirdinput",
+        "nextVersion": {
+            "version": "patch",
+            "message": "third input",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
+            },
+            "rajesh_mannuru.sandbox-scope/extensions/rm-react-env": {}
+        }
+    },
     "$schema-version": "15.0.0"
 }
