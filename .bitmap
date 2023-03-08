@@ -15,5 +15,24 @@
         "mainFile": "index.ts",
         "rootDir": "components/extensions/rm-react-env"
     },
+    "ui/secondinput": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "rajesh_mannuru.sandbox-scope",
+        "mainFile": "index.ts",
+        "rootDir": "components/ui/secondinput",
+        "nextVersion": {
+            "version": "patch",
+            "message": "second input",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
+            },
+            "rajesh_mannuru.sandbox-scope/extensions/rm-react-env": {}
+        }
+    },
     "$schema-version": "15.0.0"
 }
