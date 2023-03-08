@@ -3,8 +3,8 @@ name: Tag and Export Components
 
 on:
   pull_request_review:
-  types: [submitted]
-  branches: [main]
+    types: [submitted]
+    branches: [main]
 
 jobs:
   tag-and-export:
